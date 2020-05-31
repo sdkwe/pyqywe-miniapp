@@ -1,6 +1,6 @@
-============
-pywe-miniapp
-============
+==============
+pyqywe-miniapp
+==============
 
 Wechat MiniProgram Module for Python.
 
@@ -9,7 +9,7 @@ Installation
 
 ::
 
-    pip install pywe-miniapp
+    pip install pyqywe-miniapp
 
 
 Usage
@@ -17,7 +17,7 @@ Usage
 
 ::
 
-    from pywe_miniapp import get_session_key, get_userinfo, get_phone_number
+    from pyqywe_miniapp import get_session_key, get_userinfo, get_phone_number
 
 
 Method

@@ -3,24 +3,24 @@
 from setuptools import setup
 
 
-version = '1.1.5'
+version = '1.0.0'
 
 
 setup(
-    name='pywe-miniapp',
+    name='pyqywe-miniapp',
     version=version,
     keywords='Wechat Weixin Mini App',
     description='Wechat MiniProgram Module for Python.',
     long_description=open('README.rst').read(),
 
-    url='https://github.com/sdkwe/pywe-miniapp',
+    url='https://github.com/sdkwe/pyqywe-miniapp',
 
     author='Hackathon',
     author_email='kimi.huang@brightcells.com',
 
-    packages=['pywe_miniapp'],
+    packages=['pyqywe_miniapp'],
     py_modules=[],
-    install_requires=['pywe_base', 'pywe_decrypt', 'pywe_storage'],
+    install_requires=['pyqywe_token', 'pywe_base', 'pywe_storage'],
 
     classifiers=[
         "License :: OSI Approved :: BSD License",

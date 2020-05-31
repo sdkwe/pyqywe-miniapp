@@ -1,17 +1,17 @@
-# pywe-miniapp
+# pyqywe-miniapp
 
 Wechat MiniProgram Module for Python.
 
 # Installation
 
 ```shell
-pip install pywe-miniapp
+pip install pyqywe-miniapp
 ```
 
 # Usage
 
 ```python
-from pywe_miniapp import get_session_key, get_userinfo, get_phone_number
+from pyqywe_miniapp import get_session_key, get_userinfo, get_phone_number
 ```
 
 # Method
@@ -26,7 +26,7 @@ def get_phone_number(self, appid=None, secret=None, code=None, grant_type='autho
 
 # UserInfo & PhoneNumberInfo
   ```python
-  from pywe_miniapp import get_userinfo
+  from pyqywe_miniapp import get_userinfo
   from pywe_storage import RedisStorage
 
   from utils.redis.connect import r
